@@ -1,0 +1,26 @@
+{
+    "name": "Squeqta",
+    "description": "Seqta learn customisations",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "matches": ["https://sconnect.oxley.vic.edu.au/*"],
+            "css": ["inject dark.css"],
+            "js": ["inject.js"]
+        },
+        {
+          "run_at": "document_end",
+          "matches": ["http://app.squeqtasettings.local/"],
+          "js": ["meep.js"]
+        }
+    ],
+  "chrome_url_overrides" : {
+    "newtab": "nt.html"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}

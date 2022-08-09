@@ -1,0 +1,298 @@
+.backdrop {
+    background-image: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%) !important;
+}
+
+/* .branding{ */
+/* display: none !important; */
+/* } */
+
+.login > .auth {
+    background: none !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+    text-shadow: none !important;
+}
+
+.login::after {
+    display: none !important;
+}
+
+.auth > .message,
+.auth > .siteName {
+    display: none !important;
+}
+
+.auth > .loginBox {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 320px !important;
+    text-align: center !important;
+}
+
+.invalidCredentials {
+    position: absolute !important;
+    margin: 0 !important;
+    bottom: 0 !important;
+    font-style: normal !important;
+    width: 100% !important;
+}
+
+#menu,
+#menu > ul > .sub {
+    --navy: #444 !important;
+    color: white !important;
+}
+
+#menu > ul::before {
+    display: none !important;
+}
+
+.item {
+    color: white !important;
+}
+
+#userActions {
+    display: none !important;
+}
+
+.nav > .back {
+    color: white !important;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+#title {
+    --navy: #444 !important;
+    color: white !important;
+}
+
+#menu {
+    border-right: none !important;
+}
+
+li.active {
+    background: var(--navy) !important;
+}
+
+.assessmentsWrapper .message,
+.timetablepage .note {
+    display: none;
+}
+
+.AssessmentList__searchFilter___3N70o {
+    display: none !important;
+}
+
+.notifications__list___rp2L2 {
+    position: static !important;
+    width: 100% !important;
+    border: none !important;
+}
+
+.notifications__items___2hCdv {
+    border-bottom: none !important;
+}
+
+.notifications__actions___1UX7r {
+    background-color: #444 !important;
+}
+
+.messages {
+    --nav-level-three: #222 !important;
+    --nav-level-two: #222 !important;
+    --theme-offset-bg: transparent !important;
+}
+
+.notifications__shown___1kPoT > button {
+    border-bottom-left-radius: 100% !important;
+    border-bottom-right-radius: 100% !important;
+}
+
+.welcome .iframeWrapper {
+    display: none !important;
+}
+
+.welcome {
+    background-color: #333;
+}
+
+#main {
+    /* border-radius: 10px 0 0 0 !important; */
+    border-radius: 10px !important;
+    background: #222 !important;
+    margin: 20px;
+    margin-top: 0;
+    /* margin-left: 20px; */
+    box-shadow: 0px 0px 10px 1px rgba(30, 30, 30, 0.59) !important;
+    /* overflow: scroll; */
+}
+
+#content {
+    background: #444 !important;
+    color: white !important;
+}
+
+#toolbar {
+    padding: 0 !important;
+    height: 0 !important;
+    padding-left: 20px !important;
+    background: #444 !important;
+    transition: all ease-in-out 0.2s;
+}
+
+#title:hover ~ #toolbar,
+#toolbar:hover {
+    height: 32px !important;
+    padding: 15px !important;
+    padding-left: 20px !important;
+}
+
+#title {
+    padding: 15px !important;
+}
+
+.home-h1 {
+    font-size: 34px !important;
+    color: white !important;
+}
+
+#main > .dashboard {
+    background: #222 !important;
+}
+
+.dashlet {
+    background: #555 !important;
+    --theme-fg-parts: white !important;
+}
+
+.welcome {
+    padding: 20px !important;
+    flex-direction: column;
+}
+
+li.lesson,
+div.meta,
+li.lesson:hover {
+    /* color: black !important;
+     */
+    background-color: #222 !important;
+    transition: background-color 0.2s linear;
+    border-radius: 0 !important;
+}
+
+ul.navigator,
+li.lesson:hover,
+li.lesson:hover div.meta {
+    background-color: #555 !important;
+}
+
+li[data-message] {
+    background-color: #444 !important;
+    transition: background-color 0.2s linear;
+}
+
+li[data-message]:hover {
+    background-color: #555 !important;
+}
+
+#main .messages div div div:nth-child(2) header,
+#main .messages div div div:nth-child(2) footer,
+#main .messages div div div:nth-child(2) ol {
+    background-color: #222;
+}
+
+/* .assessmentsWrapper .assessments div div div div div:first-child{
+    background-color: #444 !important;
+    color: white !important;
+} */
+
+.connectedNotificationsWrapper div div div {
+    background-color: #444 !important;
+    color: white !important;
+}
+
+.connectedNotificationsWrapper div div div a {
+    background-color: #444 !important;
+    color: white !important;
+}
+
+.messages div div div div:nth-of-type(2) header {
+    display: none;
+}
+
+.messages div div div div:nth-of-type(1) ol {
+    display: none;
+}
+
+.messages div div div div:nth-of-type(2) footer {
+    display: none;
+}
+
+#menuToggle svg {
+    opacity: 0;
+}
+
+.assessments div div:nth-of-type(2) div:nth-of-type(2) div {
+    color: black !important;
+}
+
+.assessments div div:nth-of-type(1) div:nth-of-type(2) div div:nth-of-type(2) div div {
+    color: white !important;
+}
+
+.uiSlidePane .pane.tall {
+    background-color: #444 !important;
+    color: white !important;
+}
+
+.cke_inner.cke_reset #cke_1_toolbox,
+.anyoneSelect.filterBox.distinguished {
+    background-color: #444 !important;
+}
+
+.cke_inner.cke_reset div:nth-of-type(1),
+.event .details .field.title input,
+.uiFileHandler {
+    background-color: #555 !important;
+    color: white !important;
+}
+
+.tabContainer .event .anyoneSelect.filterBox,
+.content .calendarEventEditor .tabset {
+    display: none;
+}
+
+.uiFileHandler {
+    color: white !important;
+}
+
+.modaliser.visible {
+    background-color: #222 !important;
+}
+
+.item[data-key="goals"],
+.item[data-key="portals"],
+.item[data-key="documents"],
+.item[data-key="reports"],
+.item[data-key="settings"],
+.item[data-key="dashboard"] {
+    display: none !important;
+}
+
+.alw_home-h1 {
+    font-size: 30px !important;
+}
+
+.squeqtamenuitem label i,
+.squeqtamenuitem label i::before {
+    font-family: 24px !important;
+}
+
+.squeqtaiconything {
+    display: inline-block !important;
+    height: 24px;
+}

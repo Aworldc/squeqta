@@ -1,0 +1,110 @@
+.backdrop{
+    background-image: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) !important;
+}
+
+/* .branding{ */
+    /* display: none !important; */
+/* } */
+
+.login > .auth{
+    background: none !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+    text-shadow: none !important;
+}
+
+.login::after{
+    display: none !important;
+}
+
+.auth > .message, .auth > .siteName{
+    display: none !important;
+}
+
+.auth > .loginBox{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 320px !important;
+    text-align: center !important;
+}
+
+.invalidCredentials{
+    position: absolute !important;
+    margin: 0 !important;
+    bottom: 0 !important;
+    font-style: normal !important;
+    width: 100% !important;
+}
+
+#menu, #menu > ul > .sub{
+    --navy: #eee !important;
+    color: black !important;
+}
+
+#menu > ul::before{
+    display: none !important;
+}
+
+.item{
+    color: black !important;
+}
+
+#userActions{
+    display: none !important;
+}
+
+.nav > .back{
+    color: black !important;
+}
+
+::-webkit-scrollbar{
+    width: 0 !important;
+}
+
+#title{
+    --navy: #eee !important;
+    color: black !important;
+}
+
+#menu{
+    border-right: none !important;
+}
+
+li.active {
+    background: var(--navy) !important;
+}
+
+.assessmentsWrapper .message, .timetablepage .note{
+    display: none;
+}
+
+.AssessmentList__searchFilter___3N70o{
+    display: none !important;
+}
+
+.notifications__list___rp2L2{
+    position: static !important;
+    width: 100% !important;
+    border: none !important;
+}
+
+.notifications__items___2hCdv{
+    border-bottom: none !important;
+}
+
+.notifications__actions___1UX7r{
+    background-color: #eee !important;
+}
+
+.messages{
+    --nav-level-three: white !important;
+    --nav-level-two: white !important;
+    --theme-offset-bg: transparent !important;
+}
+
+.notifications__shown___1kPoT > button{
+    border-bottom-left-radius: 100% !important;
+    border-bottom-right-radius: 100% !important;
+}
